@@ -1,7 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+}
+.baseOPalito{
+    height: 200px;
+    width: 30px;
+    background: black;
+}
 
-/* 
+.fatherlight{
+    height: 415px;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: block;
+}
 
-    You can write your own styles here...
+  /*  You can write your own styles here...
     
     
     ...Or you can use the import command to include 
@@ -10,3 +27,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.grandfather{
+    width: 80vw;
+    height: 80hv;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.light{
+    width: 130px;
+    height: 130px;
+    background: beige;
+    border-radius: 50%;
+    margin: 6px auto;
+
+}
+
+.red{
+    background: red;
+    /* box-shadow: 5px 3px 104px 56px rgba(194,68,68,0.97); */
+}
+.redOn{
+    box-shadow: 5px 3px 104px 56px rgba(219, 196, 196, 0.97);
+}
+
+.green{
+    background: green;
+}
+
+.greenOn{
+    box-shadow: 5px 3px 104px 56px rgba(192, 236, 197, 0.97);
+}
+
+.yellow{
+    background: yellow;
+}
+
+.yellowOn{
+    box-shadow: 5px 3px 104px 56px rgba(217, 221, 201, 0.97);
+}
